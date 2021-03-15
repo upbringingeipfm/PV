@@ -1,98 +1,1682 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title> Pharma Vision Layout </title>
-<meta charset="utf-8">
-<meta name="viewport"
-content="width=device-width, initial-scale=1">
-<style>
-*{box-sizing: border-box;
+  <style>
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: DodgerGreen;
+    }
+
+    .flex-container >div {
+          background-color: #f1f1f1;
+          width: Auto;
+          margin: 5px;
+          text-align: Left;
+          line-height: 20px;
+          font-size: 14px;
+    }
+
+    .flex-container >  .EMA
+    {
+      background-color: LightBlue;
+    }
+
+    .flex-container >  .USFDA
+    {
+      background-color: Lightgreen;
+    }
+
+    .flex-container >  .WHO
+    {
+      background-color:Yellow;
+    }
+
+    .flex-container >  .ICH
+    {
+      background-color:  orange;
+    }
+
+table, th, td {
+  Border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px
 }
-body { margin: 0;
+th, td {
+  padding: 7px
 }
-/*Style the header*/
-.header {background-color: #f1f1f1;
-padding: 20px;
-text-align: center;
+th {
+  text-align: left;
 }
-/* Style the top navigation bar */
-.topnav {
-overflow: hidden;
-background-color: #333;
+table, th, td, .name {
+  background-color: #f1f1c1;
 }
-/* Style the topnav links */
-.topnav a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-/* Change color on hover */
-.topnav a:hover {
-background-color: #ddd;
-color: Blue;
-}
-/* Create Three equal columns that floats next to
- each other */
-.column {
-float: left;
-width: 33.33%;
-padding: 15px;
-}
-/* Clear floats after the columns*/
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-/* Responsive layout - makes the three columns
-stack on top of each other instead of next to
- each other */
-@media screen and (max width: 600px)
+
+table, th, td, .EMA
 {
-.column { width: 100%;
+  background-color: LightBlue;
 }
+
+table, th, td,  .USFDA
+{
+  background-color: Lightgreen;
 }
-</style>
-</head>
-<body>
-<div class="header">
-  <h1> Upbringing-Pharma Vision </h1>
-<p> Start dreaming for greater future and put
-hands together to make pharma world more valuable </p>
-</div>
-<div class="topnav">
-<a href="Academic\ Academic.html"> Academic </a>
-<a href="Career\ Career.html"> Career </a>
-<a href="Entrance exam\ Entranceexam.html"> Entrance exam </a>
-<a href="Lead through example-HL\ Leadthroughexampe.html"> LTE-HL </a>
-<a href="Lead through examples\ leadthroughexample.html"> LTE </a>
-<a href="Medical and healthcare\ medicalandhealthcare.html"> Healthcare </a>
-<a href="Pharma Business\ pharmabusiness.html"> Pharma Business </a>
-<a href="Research\ research.html"> Research </a>
-</div>
-<div class="row">
-<div class="column">
-<h2> All about Vision Track </h2>
 
-</div>
+table, th, td,  .WHO
+{
+  background-color:Yellow;
+}
 
-<div class="column">
-<h2> Pharma vision framework </h2>
-</div>
+table, th, td,  .ICH
+{
+  background-color:  orange;
+}
 
-<div class="column">
-<h2> Rest </h2>
-<p>
-<Li> Advertisement </Li>
-<Li> Current research </Li>
-<Li> Magazine </Li>
-</p>
-</div>
-</div>
+*{box-sizing: border-box;}
 
 
-</body>
-</html>
+    </style>
+    </head>
+    <body>
+
+      <h2> <p>Executive summary</p> </h2>
+      <p></p>
+
+      <div class="flex-container">
+
+          <div class="EMA">Executive summary-EMA- This guideline defines key elements necessary for the validation of bioanalytical methods.
+    The guideline focuses on the validation of the bioanalytical methods generating quantitative concentration data used for pharmacokinetic and toxicokinetic parameter determinations.
+    Guidance and criteria are given on the application of these validated methods in the routine analysis of study samples from animal and human studies.</div>
+          <div class="USFDA">Executive summary-USFDA-</div>
+          <div class="WHO">Executive summary-WHO-</div>
+          <div class="ICH">Executive summary-ICH-</div>
+
+        </div>
+
+
+        <h2> <p>1. Introduction (Background)</p> </h2>
+        <p></p>
+
+        <div class="flex-container">
+
+            <div class="EMA">Measurement of drug concentration in biological matrices (such as serum, Plasma, blood, urine, and saliva) is an important aspect of medicinal product development.
+            Such data may be required to support applications for new actives substances and generic as well as variations to authorised drug products.
+          The results of animal Toxicokinetic studied and of clinical trials, including bioequivalence studies are used to make critical decisions supporting the safety and efficacy of a medicinal drug substances or product. It is therefore paramountnthat the applied bioanalytical methods used are well characterised, fully validated and documented to a satisfactory standard in order to yield reliable results. </br> Acceptance criteria wider than those defined in this guideline may be used in special situations. This should be prospectively defined based on the intended use of the method.</div>
+            <div class="USFDA">Executive summary-USFDA-</div>
+            <div class="WHO">Executive summary-WHO-</div>
+            <div class="ICH">Executive summary-ICH-</div>
+
+          </div>
+
+          <h2> <p>2. Scope</p> </h2>
+          <p></p>
+
+          <div class="flex-container">
+
+              <div class="EMA">This guideline provides recommendations for the validation of bioanalytical methods applied to
+measure drug concentrations in biological matrices obtained in animal toxicokinetic studies and all
+phases of clinical trials. As ligand binding assays differ substantially from chromatographic analytical
+methods, separate validation recommendations for ligand binding assays are provided.
+In addition, specific aspects for the analysis of study samples will be addressed.
+Furthermore, this guideline will describe when partial validation or cross validation should be carried
+out in addition to the full validation of an analytical method.
+Methods used for determining quantitative concentrations of biomarkers used in assessing
+pharmacodynamic endpoints are out of the scope of this guideline.</div>
+              <div class="USFDA">Executive summary-USFDA-</div>
+              <div class="WHO">Executive summary-WHO-</div>
+              <div class="ICH">Executive summary-ICH-</div>
+
+            </div>
+
+            <h2> <p>3. Legal basis</p> </h2>
+            <p></p>
+
+            <div class="flex-container">
+
+                <div class="EMA">This guideline has to be read in conjunction with the introduction and general principles (4) and Part I
+and II of the Annex I to Directive 2001/83 as amended. It applies to Marketing Authorisation
+Applications for human medicinal products submitted in accordance with the Directive 2001/83/EC as
+amended, and Regulation (EC) No. 726/2004, in which the analysis of drug concentrations in a
+biological matrix is part of the application.
+The validation of bioanalytical methods and the analysis of study samples for clinical trials in humans
+should be performed following the principles of Good Clinical Practice (GCP). Further guidance that will
+help clinical laboratories develop and maintain quality systems which will comply with relevant
+European Union Directives, national regulations and associated guidance documents can be found in
+
+the “Reflection Paper for Laboratories That Perform The Analysis Or Evaluation Of Clinical Trial
+Samples.” (EMA/INS/GCP/532137/2010).
+
+Non-clinical (pharmaco-toxicological) studies submitted in a marketing authorisation application shall
+be carried out in conformity with the provisions related to Good Laboratory Practice, Directive
+2004/10/EC on the harmonisation of laws, regulations and administrative provisions relating to the
+application of the principles of good laboratory practice and the verification of their applications for
+tests on chemical substances and Directive 2004/9/EC on the inspection and verification of good
+laboratory practice (GLP). Normally, the validation of bioanalytical methods used in non-clinical
+pharmacotoxicological studies that are carried out in conformity with the provisions related to Good
+Laboratory Practice should be performed following the Principles of Good Laboratory Practice. Aspects
+of method validation not performed according to GLP should be clearly identified and their potential
+impact on the validation status of the method indicated. Methods used in pre-clinical studies not
+required to be performed to GLP should be fit for purpose but not necessarily developed in a GLP
+facility.</div>
+                <div class="USFDA">Executive summary-USFDA-</div>
+                <div class="WHO">Executive summary-WHO-</div>
+                <div class="ICH">Executive summary-ICH-</div>
+
+              </div>
+
+
+
+        <h3>Combine differences in Regulatory Guideline</h3>
+        <table border="1" style="color:Darkblue">
+      <tr>
+      <th class="name">Executive summary</th>
+      <th class="EMA">EMA</th>
+      <th class="USFDA">USFDA</th>
+      <th class="WHO">WHO</th>
+      <th class="ICH">ICH</th>
+      </tr>
+      <tr>
+      <th class="name">1</th>
+      <th class="EMA"></th>
+      <th class="USFDA"></th>
+      <th class="WHO"></th>
+      <th class="ICH"></th>
+      </tr>
+        </table>
+
+
+
+
+    <h1>  Method validation <h1>
+      <h2>Differences between Bioanalytical guidelines</h2>
+
+      <h2> <p>Full validation of an analytical method </p> </h2>
+      <p><b> Full validation of an analytical method -Definition:</b> </p>
+
+      <div class="flex-container">
+
+          <div class="EMA"><b>Full validation of an analytical method -EMA-</b> <br>A full method validation should be performed for any analytical method whether new or based upon
+literature.
+The main objective of method validation is to demonstrate the reliability of a particular method for the
+determination of an analyte concentration in a specific biological matrix, such as blood, serum, plasma,
+urine, or saliva. Moreover, if an anticoagulant is used, validation should be performed using the same
+anticoagulant as for the study samples. Generally a full validation should be performed for each
+species and matrix concerned.
+In some cases, it may be problematic for validation purposes to obtain an identical matrix compared to
+the matrix of the study samples. A suitable alternative matrix may be used, e.g. synthetically prepared
+cerebrospinal fluid, if justified.
+The main characteristics of a bioanalytical method that are essential to ensure the acceptability of the
+performance and the reliability of analytical results are: selectivity, lower limit of quantification, the
+response function and calibration range (calibration curve performance), accuracy, precision, matrix
+effects, stability of the analyte(s) in the biological matrix and stability of the analyte(s) and of the
+internal standard in the stock and working solutions and in extracts under the entire period of storage
+and processing conditions.
+Usually one analyte or drug has to be determined, but on occasions it may be appropriate to measure
+more than one analyte. This may involve two different drugs, but can also involve a parent drug with
+its metabolites, or the enantiomers or isomers of a drug. In these cases the principles of validation and
+analysis apply to all analytes of interest. </div>
+          <div class="USFDA">Full validation of an analytical method -USFDA-</div>
+          <div class="WHO">Full validation of an analytical method -WHO-</div>
+          <div class="ICH">Full validation of an analytical method -ICH-</div>
+
+        </div>
+
+        <h2> <p>Reference standards</p> </h2>
+        <p><b> Reference standards-Definition:</b> </p>
+
+        <div class="flex-container">
+
+            <div class="EMA"><b>Reference standards-EMA-</b></br> During method validation and analysis of study samples, a blank biological matrix will be spiked with
+the analyte(s) of interest using solutions of reference standard(s) to prepare calibration standards,
+quality control samples and stability samples. In addition, suitable internal standard(s) (IS) can be
+added during sample processing in chromatographic methods.
+
+It is important that the quality of the reference standard and IS is ensured, as the quality (purity) may
+affect the outcome of the analysis, and therefore the outcome of the study data. Therefore the
+reference standards used during the validation and study sample analysis should be obtained from an
+authentic and traceable source.
+Suitable reference standards include compendial standards, commercially available standards, or
+sufficiently characterised standards prepared in-house or by an external non-commercial organisation.
+A certificate of analysis is required to ensure purity and provide information on storage conditions,
+expiration date and batch number of the reference standard.
+The use of such standards is not needed for IS, as long as the suitability for use is demonstrated, e.g.
+lack of analytical interference is shown for the substance itself or any impurities thereof. A certificate of
+analysis is not required.
+When mass-spectrometry (MS) detection is used in the bioanalytical method, a stable isotope-labelled
+IS is recommended to be used whenever possible. However, it is essential that the labelled standard is
+of the highest isotope purity and that no isotope exchange reaction occurs. The presence of any
+unlabelled analyte should be checked and if relative amounts of unlabelled analyte are detected the
+potential influence has to be evaluated during method validation.</div>
+            <div class="USFDA">Reference standards-USFDA-</div>
+            <div class="WHO">Reference standards-WHO-</div>
+            <div class="ICH">Reference standards-ICH-</div>
+
+          </div>
+
+      <h2> <p>Selectivity</p> </h2>
+      <p><b> Selectivity-Definition:</b> </p>
+
+      <div class="flex-container">
+
+          <div class="EMA"><b>Selectivity-EMA-</b></br>The analytical method should be able to differentiate the analyte(s) of interest and IS from
+endogenous components in the matrix or other components in the sample. Selectivity should be
+proved using at least 6 individual sources of the appropriate blank matrix, which are individually
+analysed and evaluated for interference. Use of fewer sources is acceptable in case of rare matrices.
+
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b> Normally, absence of interfering components is accepted where the response is less than 20% of the
+lower limit of quantification for the analyte and 5% for the internal standard.
+</div></div>
+
+It may also be necessary to investigate the extent of any interference caused by metabolites of the
+drug(s), interference from degradation products formed during sample preparation, and interference
+from possible co-administered medications. Co-medications normally used in the subject population
+studied which may potentially interfere should be taken into account at the stage of method validation,
+or on a study specific and compound specific base.
+The possibility of back-conversion of a metabolite into parent analyte during the successive steps of
+the analysis (including extraction procedures or in the MS source) should also be evaluated, when
+relevant (i.e. potentially unstable metabolites e.g. acidic metabolites to ester, unstable N-oxides or
+glucuronide metabolites, lactone-ring structures). The extent of back-conversion should be established
+and the impact on the study results discussed. It is acknowledged that this evaluation will not be
+possible early during drug development of a new chemical entity when the metabolism is not yet
+evaluated. However, it is expected that this issue is taken into account and a partial validation is
+performed if relevant as further knowledge regarding metabolism of the active substance is gained
+during drug development.
+It is recognized that in some cases it is very difficult to obtain the metabolites of interest. Alternatively,
+back-conversion of a metabolite can be checked by applying incurred sample reanalysis. However, in
+this case potential back conversion during sample processing cannot be ruled out.</div>
+          <div class="USFDA">Selectivity-USFDA-</div>
+          <div class="WHO">Selectivity-WHO-</div>
+          <div class="ICH">Selectivity-ICH-</div>
+
+        </div>
+
+
+
+        <h3>Combine differences in Regulatory Guideline</h3>
+        <table border="1" style="color:Darkblue">
+<tr>
+  <th class="name">Selectivity</th>
+  <th class="EMA">EMA</th>
+  <th class="USFDA">USFDA</th>
+  <th class="WHO">WHO</th>
+  <th class="ICH">ICH</th>
+</tr>
+<tr>
+  <th class="name">1</th>
+  <th class="EMA"></th>
+  <th class="USFDA"></th>
+  <th class="WHO"></th>
+  <th class="ICH"></th>
+</tr>
+        </table>
+
+        <h2><p>Carry-over</p></h2>
+        <p><b> Carry-over-Definition:</b></p>
+
+       <div class="flex-container">
+
+           <div class="EMA"><b>Carry-over-EMA-</b><br>Carry-over should be addressed and minimised during method development. During validation carryover should be assessed by injecting blank samples after a high concentration sample or calibration
+standard at the upper limit of quantification.
+
+
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b> Carry over in the blank sample following the high
+concentration standard should not be greater than 20% of the lower limit of quantification (LLOQ; see
+below) and 5% for the internal standard.
+</div></div>
+
+
+ If it appears that carry-over is unavoidable, study samples
+should not be randomised. Specific measures should be considered, tested during the validation and
+applied during the analysis of the study samples, so that it does not affect accuracy and precision. This
+could include the injection of blank samples after samples with an expected high concentration, before
+the analysis of the next study sample.</div>
+           <div class="USFDA">Carry-over-USFDA-</div>
+           <div class="WHO">Carry-over-WHO-</div>
+           <div class="ICH">Carry-over-ICH-</div>
+
+
+         </div>
+
+         <h3>Combine differences in Regulatory Guideline</h3>
+         <table border="1" style="color:Darkblue">
+ <tr>
+   <th class="name">Carry-over</th>
+   <th class="EMA">EMA</th>
+   <th class="USFDA">USFDA</th>
+   <th class="WHO">WHO</th>
+   <th class="ICH">ICH</th>
+ </tr>
+ <tr>
+   <th class="name">1</th>
+   <th class="EMA"></th>
+   <th class="USFDA"></th>
+   <th class="WHO"></th>
+   <th class="ICH"></th>
+ </tr>
+         </table>
+
+      <h2>   <p>Lower limit of quantification</p></h2>
+      <p><b> Lower limit of quantification-Definition:</b> </p>
+
+        <div class="flex-container">
+
+            <div class="EMA"><b>Lower limit of quantification-EMA-</b></br>The lower limit of quantification (LLOQ) is the lowest concentration of analyte in a sample which can be
+quantified reliably, with an acceptable accuracy and precision. The LLOQ is considered being the lowest
+calibration standard (see Accuracy and Precision).
+
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b> In addition, the analyte signal of the LLOQ sample
+should be at least 5 times the signal of a blank sample.
+</div></div>
+
+ The LLOQ should be adapted to expected
+concentrations and to the aim of the study.
+
+
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b> As an example, for bioequivalence studies the LLOQ should
+be not higher than 5% of the Cmax,
+</div></div>
+
+ while such a low LLOQ may be not necessary for exploratory
+pharmacokinetic studies.</div>
+            <div class="USFDA">Lower limit of quantification-USFDA-</div>
+            <div class="WHO">Lower limit of quantification-WHO-</div>
+            <div class="ICH">Lower limit of quantification-ICH-</div>
+
+          </div>
+          <h3>Combine differences in Regulatory Guideline</h3>
+
+          <table border="1" style="color:Darkblue">
+  <tr>
+    <th class="name">Lower limit of quantification</th>
+    <th class="EMA">EMA</th>
+    <th class="USFDA">USFDA</th>
+    <th class="WHO">WHO</th>
+    <th class="ICH">ICH</th>
+  </tr>
+  <tr>
+    <th class="name">1</th>
+    <th class="EMA"></th>
+    <th class="USFDA"></th>
+    <th class="WHO"></th>
+    <th class="ICH"></th>
+  </tr>
+          </table>
+
+      <h2>    <p>Calibration curve</p></h2>
+      <p><b> Calibration curve-Definition:</b> </p>
+
+         <div class="flex-container">
+
+             <div class="EMA"><b>Calibration curve-EMA-</b></br>The response of the instrument with regard to the concentration of analyte should be known, and
+should be evaluated over a specified concentration range. The calibration standards should be
+prepared in the same matrix as the matrix of the intended study samples by spiking the blank matrix
+with known concentrations of the analyte. There should be one calibration curve for each analyte
+studied in the method validation and for each analytical run.
+Ideally, before carrying out the validation of the analytical method it should be known what
+concentration range is expected. This range should be covered by the calibration curve range, defined
+by the LLOQ being the lowest calibration standard and the upper limit of quantification (ULOQ), being
+the highest calibration standard. The range should be established to allow adequate description of the
+pharmacokinetics of the analyte of interest.
+A minimum of six calibration concentration levels should be used, in addition to the blank sample
+(processed matrix sample without analyte and without IS) and a zero sample (processed matrix with
+IS). Each calibration standard can be analysed in replicate.
+A relationship which can simply and adequately describe the response of the instrument with regard to
+the concentration of analyte should be applied. The blank and zero samples should not be taken into
+consideration to calculate the calibration curve parameters.
+The calibration curve parameters should be reported (slope and intercept in case of linear fit). In
+addition, the back calculated concentrations of the calibration standards should be presented together
+with the calculated mean accuracy values (see definition of Accuracy below). All the available (or
+acceptable) curves obtained during validation, with a minimum of 3 should be reported.
+
+Although the calibration curve should preferably be prepared using freshly spiked samples, it is allowed
+to use previously prepared and stored calibration samples, if supported by appropriate stability data.
+<div class="flex-container">
+    <div style="background-color:#ffa1a1"><b>Acceptance criteria</b> The back calculated concentrations of the calibration standards should be within ±15% of the nominal
+    value, except for the LLOQ for which it should be within ±20%. At least 75% of the calibration
+
+    standards, with a minimum of six calibration standard levels, must fulfil this criterion. In case
+    replicates are used, the criteria (within ±15% or ±20% for LLOQ) should also be fulfilled for at least
+    50% of the calibration standards tested per concentration level. In case a calibration standard does not
+    comply with these criteria, this calibration standard sample should be rejected, and the calibration
+    curve without this calibration standard should be re-evaluated, including regression analysis. In case
+    all replicates of the LLOQ or the ULOQ calibration standard are rejected then the batch should be
+    rejected from the validation, the possible source of the failure be determined and the method revised
+    (if necessary). If the next validation batch also fails, then the method should be revised before
+    restarting validation. </div> </div></div>
+             <div class="USFDA">Calibration curve-USFDA-</div>
+             <div class="WHO">Calibration curve-WHO-</div>
+             <div class="ICH">Calibration curve-ICH-</div>
+
+           </div>
+           <h3>Combine differences in Regulatory Guideline</h3>
+           <table border="1" style="color:Darkblue">
+           <tr>
+           <th class="name">Calibration curve</th>
+           <th class="EMA">EMA</th>
+           <th class="USFDA">USFDA</th>
+           <th class="WHO">WHO</th>
+           <th class="ICH">ICH</th>
+           </tr>
+           <tr>
+           <th class="name">1</th>
+           <th class="EMA"></th>
+           <th class="USFDA"></th>
+           <th class="WHO"></th>
+           <th class="ICH"></th>
+           </tr>
+           </table>
+        <h2>   <p>Accuracy</p></h2>
+        <p><b> Accuracy-Definition:</b> </p>
+
+          <div class="flex-container">
+
+              <div class="EMA"><b>Accuracy-EMA-</b><br>The accuracy of an analytical method describes the closeness of the determined value obtained by the
+method to the nominal concentration of the analyte (expressed in percentage). Accuracy should be
+assessed on samples spiked with known amounts of the analyte, the quality control samples (QC
+samples). The QC samples should be spiked independently from the calibration standards, using
+separately prepared stock solutions, unless the nominal concentration(s) of the stock solutions have
+been established.
+The QC samples are analysed against the calibration curve, and the obtained concentrations are
+compared with the nominal value. The accuracy should be reported as percent of the nominal value.
+Accuracy should be evaluated for the values of the QC samples obtained within a single run (the within
+run accuracy) and in different runs (the between-run accuracy).
+To enable evaluation of any trends over time within one run, it is recommended to demonstrate
+accuracy and precision of QC samples over at least one of the runs in a size equivalent to a prospective
+analytical run of study samples
+<div class="flex-container">
+  <div ><b>Within-run accuracy</b>
+Within-run accuracy should be determined by analysing in a single run a minimum of 5 samples per
+level at a minimum of 4 concentration levels which are covering the calibration curve range: the LLOQ,
+within three times the LLOQ (low QC),
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b> around 30 - 50% of the calibration curve range (medium QC),
+and at least at 75% of the upper calibration curve range (high QC). The mean concentration should be
+within 15% of the nominal values for the QC samples, except for the LLOQ which should be within 20%
+of the nominal value.</div></div>
+</div>
+
+
+  <div ><b>Between –run accuracy</b>
+For the validation of the between-run accuracy, LLOQ, low, medium and high QC samples from at least
+three runs analysed on at least two different days should be evaluated.  <div class="flex-container"> <div style="background-color:#ffa1a1"><b>Acceptance criteria</b>The mean concentration should
+be within 15% of the nominal values for the QC samples, except for the LLOQ which should be within
+20% of the nominal value.
+Reported method validation data and the determination of accuracy and precision should include all
+results obtained except those cases where errors are obvious and documented.</div></div></div>
+
+</div></div>
+              <div class="USFDA">Accuracy-USFDA-</div>
+              <div class="WHO">Accuracy-WHO-</div>
+              <div class="ICH">Accuracy-ICH-</div>
+
+            </div>
+            <h3>Combine differences in Regulatory Guideline</h3>
+            <table border="1" style="color:Darkblue">
+    <tr>
+      <th class="name">Accuracy</th>
+      <th class="EMA">EMA</th>
+      <th class="USFDA">USFDA</th>
+      <th class="WHO">WHO</th>
+      <th class="ICH">ICH</th>
+    </tr>
+    <tr>
+      <th class="name">1</th>
+      <th class="EMA"></th>
+      <th class="USFDA"></th>
+      <th class="WHO"></th>
+      <th class="ICH"></th>
+    </tr>
+            </table>
+
+            <h2><p>Precision</p></h2>
+            <p><b> Precision-Definition:</b> </p>
+
+            <div class="flex-container">
+
+                <div class="EMA"><b>Precision-EMA-</b><br>The precision of the analytical method describes the closeness of repeated individual measures of
+analyte. Precision is expressed as the coefficient of variation (CV). Precision should be demonstrated
+for the LLOQ, low, medium and high QC samples, within a single run and between different runs, i.e.
+using the same runs and data as for the demonstration of accuracy.
+  <div class="flex-container">
+    <div ><b>Within-run Precision</b>
+      For the validation of the within-run precision, there should be a minimum of five samples per
+    concentration level at LLOQ, low, medium and high QC samples in a single run.
+  <div class="flex-container"> <div style="background-color:#ffa1a1"><b>Acceptance criteria</b>The within-run CV
+value should not exceed 15% for the QC samples, except for the LLOQ which should not exceed 20%</div></div>
+  </div>
+
+
+    <div ><b>Between –run Precision</b>
+      For the validation of the between-run precision, LLOQ, low, medium and high QC samples from at least
+    three runs analysed on at least two different days should be evaluated.  <div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b>The between-run CV value
+should not exceed 15% for the QC samples, except for the LLOQ which should not exceed 20%.
+</div></div></div>
+
+  </div></div>
+               <div class="USFDA">Precision-USFDA-</div>
+               <div class="WHO">Precision-WHO-</div>
+               <div class="ICH">Precision-ICH-</div>
+
+             </div>
+             <h3>Combine differences in Regulatory Guideline</h3>
+             <table border="1" style="color:Darkblue">
+     <tr>
+       <th class="name">Precision</th>
+       <th class="EMA">EMA</th>
+       <th class="EMA">USFDA</th>
+       <th class="EMA">WHO</th>
+       <th class="EMA">ICH</th>
+     </tr>
+     <tr>
+       <th class="name">1</th>
+       <th class="EMA"></th>
+       <th class="USFDA"></th>
+       <th class="WHO"></th>
+       <th class="ICH"></th>
+     </tr>
+             </table>
+
+            <h2> <p>Dilution integrity</p></h2>
+            <p><b> Dilution integrity-Definition:</b> </p>
+
+             <div class="flex-container">
+
+                <div class="EMA"><b>Dilution integrity-EMA-</b></br>Dilution of samples should not affect the accuracy and precision. If applicable, dilution integrity should
+be demonstrated by spiking the matrix with an analyte concentration above the ULOQ and diluting this
+sample with blank matrix (at least five determinations per dilution factor).
+<div class="flex-container"><div style="background-color:#ffa1a1"><b>Acceptance criteria</b>Accuracy and precision
+should be within the set criteria, i.e. within ±15%. Dilution integrity should cover the dilution applied
+to the study samples.</div>
+<div>Evaluation of dilution integrity may be covered by partial validation. Use of another matrix may be
+acceptable, as long as it has been demonstrated that this does not affect precision and accuracy.
+</div>
+</div>
+</div>
+                <div class="USFDA">Dilution integrity-USFDA-</div>
+                <div class="WHO">Dilution integrity-WHO-</div>
+                <div class="ICH">Dilution integrity-ICH-</div>
+
+              </div>
+              <h3>Combine differences in Regulatory Guideline</h3>
+              <table border="1" style="color:Darkblue">
+              <tr>
+              <th class="name">Dilution integrity</th>
+              <th class="EMA">EMA</th>
+              <th class="USFDA">USFDA</th>
+              <th class="WHO">WHO</th>
+              <th class="ICH">ICH</th>
+              </tr>
+              <tr>
+              <th class="name">1</th>
+              <th class="EMA"></th>
+              <th class="USFDA"></th>
+              <th class="WHO"></th>
+              <th class="ICH"></th>
+              </tr>
+              </table>
+            <h2>  <p>Matrix effect</p></h2>
+            <p><b> Matrix effect-Definition:</b> </p>
+
+              <div class="flex-container">
+
+                 <div class="EMA"><b>Matrix effect-EMA-</b></br> Matrix effects should be investigated when using mass spectrometric methods, using at least 6 lots of
+blank matrix from individual donors. Pooled matrix should not be used.
+For each analyte and the IS, the matrix factor (MF) should be calculated for each lot of matrix, by
+calculating the ratio of the peak area in the presence of matrix (measured by analysing blank matrix
+spiked after extraction with analyte), to the peak area in absence of matrix (pure solution of the
+analyte). The IS normalised MF should also be calculated by dividing the MF of the analyte by the MF
+of the IS.
+
+
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b>
+The CV of the IS-normalised MF calculated from the 6 lots of matrix should not be greater
+than 15 %. This determination should be done at a low and at a high level of concentration (maximum
+of 3 times the LLOQ and close to the ULOQ).</div></div>
+If this approach cannot be used, for instance in the case of on-line sample preparation, the variability
+of the response from lot to lot should be assessed by analysing at least 6 lots of matrix, spiked at a
+low and at a high level of concentration (maximum of 3 times the LLOQ and close to the ULOQ). The
+validation report should include the peak areas of the analyte and of the IS and the calculated
+concentration for each individual sample.
+
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b> The overall CV calculated for the concentration should not be
+greater than 15 %.
+</div></div>
+
+If the matrix is difficult to obtain, less than 6 different lots of matrix may be used, but this should be
+justified. However, matrix effects should still be investigated. If a formulation for injection to be administered to the subjects or animals contains excipients known
+to be responsible for matrix effects, for instance polyethylene glycol or polysorbate, matrix effects
+should be studied with matrix containing these excipients, in addition to blank matrix. The matrix used
+for this evaluation should be obtained from subjects or animals administered the excipient, unless it
+has been demonstrated that the excipient is not metabolised or transformed in-vivo. The effect of the
+excipients can be studied by the determination of the MF or by a dilution study of a study sample with
+a high concentration with blank matrix not containing the excipient.
+In addition to the normal matrix it is recommended to investigate matrix effects on other samples e.g.
+haemolysed and hyperlipidaemic plasma samples. If samples from special populations (such as renally
+or hepatically impaired populations) are to be analysed it is also recommended to study matrix effects
+using matrix from such populations</div>
+                 <div class="USFDA">Matrix effect-USFDA-</div>
+                 <div class="WHO">Matrix effect-WHO-</div>
+                 <div class="ICH">Matrix effect-ICH-</div>
+
+               </div>
+               <h3>Combine differences in Regulatory Guideline</h3>
+               <table border="1" style="color:Darkblue">
+       <tr>
+         <th class="name">Matrix effect</th>
+         <th class="EMA">EMA</th>
+         <th class="USFDA">USFDA</th>
+         <th class="WHO">WHO</th>
+         <th class="ICH">ICH</th>
+       </tr>
+       <tr>
+         <th class="name">1</th>
+         <th class="EMA"></th>
+         <th class="USFDA"></th>
+         <th class="WHO"></th>
+         <th class="ICH"></th>
+       </tr>
+               </table>
+
+            <h2>   <p>Stability</p></h2>
+            <p><b> Stability-Definition:</b> </p>
+
+               <div class="flex-container">
+
+                  <div class="EMA"><b>Stability-EMA-</b></br>Evaluation of stability should be carried out to ensure that every step taken during sample preparation
+and sample analysis, as well as the storage conditions used do not affect the concentration of the
+analyte.</br>
+Stability should be ensured for every step in the analytical method, meaning that the conditions
+applied to the stability tests, such as sample matrix, anticoagulant, container materials, storage and
+analytical conditions should be similar to those used for the actual study samples. Reference to data
+published in the literature is not considered sufficient.</br>
+Stability of the analyte in the studied matrix is evaluated using low and high QC samples (blank matrix
+spiked with analyte at a concentration of a maximum of 3 times the LLOQ and close to the ULOQ)
+which are analysed immediately after preparation and after the applied storage conditions that are to
+be evaluated. The QC samples are analysed against a calibration curve, obtained from freshly spiked
+calibration standards, and the obtained concentrations are compared to the nominal concentrations.
+
+<div class="flex-container"> <div style="background-color:#ffa1a1"> <b>Acceptance criteria</b> The mean concentration at each level should be within ±15% of the nominal concentration.
+</div></div>
+
+Stability of the stock and working solutions should be tested with an appropriate dilution, taking into
+consideration the linearity and measuring range of the detector.</br>
+Stability studies should investigate the different storage conditions over time periods that equal or
+exceed those applied to the actual study samples.</br>
+</br>
+<div class="flex-container"> <div> The following stability tests should be evaluated:</br>
+• stability of the stock solution and working solutions of the analyte and internal standard,</br>
+• freeze and thaw stability of the analyte in the matrix from freezer storage conditions to room
+temperature or sample processing temperature,</br>
+• short term stability of the analyte in matrix at room temperature or sample processing
+temperature,</br>
+• long term stability of the analyte in matrix stored in the freezer,</div></div>
+
+<div class="flex-container"> <div> In addition the following tests should be performed if applicable:</br>
+• stability of the processed sample at room temperature or under the storage conditions to be
+used during the study (dry extract or in the injection phase),</br>
+• on-instrument/ autosampler stability of the processed sample at injector or autosampler
+temperature.
+</div></div>
+</br>
+<div class="flex-container"> <div> <b>Regarding the freeze and thaw stability:</b> The QC samples are stored and frozen in the freezer at the
+intended temperature and thereafter thawed at room or processing temperature. After complete
+thawing, samples are refrozen again applying the same conditions. At each cycle, samples should be
+frozen for at least 12 hours before they are thawed. The number of cycles in the freeze-thaw stability
+should equal or exceed that of the freeze/thaw cycles of study samples.
+</div></div>
+</br>
+<div class="flex-container"> <div> <b>Regarding long term stability of the analyte in matrix stored in the freezer:</b> The QC samples should be
+stored in the freezer under the same storage conditions and at least for the same duration as the study
+samples. For small molecules it is considered acceptable to apply a bracketing approach, i.e. in case
+stability has been proved for instance at -70°C and -20°C, it is not necessary to investigate the
+stability at temperatures in between. For large molecules (such as peptides and proteins) stability
+should be studied at each temperature at which study samples will be stored. Study samples may be
+used in addition to QC samples, but the exclusive use of study samples is not considered sufficient as
+the nominal concentrations of those samples is not known. The results of the evaluation of long term
+stability should be available before the study report is issued.
+</div></div>
+</br>
+<div class="flex-container"> <div>  It is not needed to study the stability at each
+concentration level of working solutions and a bracketing approach can be used. It is not needed to
+study the stability of stable-isotope labelled internal standards if it is demonstrated that no isotope
+exchange reactions occur under the same conditions as the stability of the analyte was demonstrated.
+</div></div>
+</br>
+<div class="flex-container"> <div> <b>In case of a multi-analyte study and specific for bioequivalence studies</b>  attention should be paid to
+stability of the analytes in the matrix containing all the analytes.</div></div>
+</br>
+<div class="flex-container"> <div> Sufficient attention should be paid to the stability of the analyte in the sampled matrix directly after
+blood sampling of subjects and further preparation before storage, to ensure that the obtained
+concentrations by the analytical method reflect the concentrations of the analyte in the subject at the
+moment of sampling. A demonstration of this stability may be needed on a case-by-case basis,
+depending on the structure of the analyte.</div></div></div>
+
+                  <div class="USFDA">Stability-USFDA-</div>
+                  <div class="WHO">Stability-WHO-</div>
+                  <div class="ICH">Stability-ICH-</div>
+
+                </div>
+                <h3>Combine differences in Regulatory Guideline</h3>
+                <table border="1" style="color:Darkblue">
+        <tr>
+          <th class="name">Stability</th>
+          <th class="EMA">EMA</th>
+          <th class="USFDA">USFDA</th>
+          <th class="WHO">WHO</th>
+          <th class="ICH">ICH</th>
+        </tr>
+        <tr>
+          <th class="name">1</th>
+          <th class="EMA"></th>
+          <th class="USFDA"></th>
+          <th class="WHO"></th>
+          <th class="ICH"></th>
+        </tr>
+                </table>
+
+                <h1>   <p>Partial Validation </p></h1>
+                <p><b> Partial Validation-Definition:</b> </p>
+
+                   <div class="flex-container">
+
+                      <div class="EMA">Partial Validation-EMA-</div>
+                      <div class="USFDA">Partial Validation-USFDA-</div>
+                      <div class="WHO">Partial Validation-WHO-</div>
+                      <div class="ICH">Partial Validation-ICH-</div>
+
+                    </div>
+                    <h3>Combine differences in Regulatory Guideline</h3>
+                    <table border="1" style="color:Darkblue">
+            <tr class="name">
+              <th>Partial Validation</th>
+              <th class="EMA">EMA</th>
+              <th class="USFDA">USFDA</th>
+              <th class="WHO">WHO</th>
+              <th class="ICH">ICH</th>
+            </tr>
+            <tr>
+              <th class="name">1</th>
+              <th class="EMA"></th>
+              <th class="USFDA"></th>
+              <th class="WHO"></th>
+              <th class="ICH"></th>
+            </tr>
+                    </table>
+
+                    <h1>   <p>Cross Validation </p></h1>
+                    <p><b>Cross Validation-Definition:</b> </p>
+
+                       <div class="flex-container">
+
+                          <div class="EMA">Cross Validation-EMA-</div>
+                          <div class="USFDA">Cross Validation-USFDA-</div>
+                          <div class="WHO">Cross Validation-WHO-</div>
+                          <div class="ICH">Cross Validation-ICH-</div>
+
+                        </div>
+                        <h3>Combine differences in Regulatory Guideline</h3>
+                        <table border="1" style="color:Darkblue">
+                <tr>
+                  <th class="name">Cross Validation</th>
+                  <th class="EMA">EMA</th>
+                  <th class="USFDA">USFDA</th>
+                  <th class="WHO">WHO</th>
+                  <th class="ICH">ICH</th>
+                </tr>
+                <tr>
+                  <th class="name">1</th>
+                  <th class="EMA"></th>
+                  <th class="USFDA"></th>
+                  <th class="WHO"></th>
+                  <th class="ICH"></th>
+                </tr>
+                        </table>
+
+                        <h1>   <p>Analysis of study samples</p></h1>
+                        <p><b> Analysis of study samples-Definition:</b> </p>
+
+                           <div class="flex-container">
+
+                              <div class="EMA">Analysis of study samples-EMA-</div>
+                              <div class="USFDA">Analysis of study samples-USFDA-</div>
+                              <div class="WHO">Analysis of study samples-WHO-</div>
+                              <div class="ICH">Analysis of study samples-ICH-</div>
+
+                            </div>
+                            <h3>Combine differences in Regulatory Guideline</h3>
+                            <table border="1" style="color:Darkblue">
+                    <tr>
+                      <th class="name">Analysis of study samples</th>
+                      <th class="EMA">EMA</th>
+                      <th class="USFDA">USFDA</th>
+                      <th class="WHO">WHO</th>
+                      <th class="ICH">ICH</th>
+                    </tr>
+                    <tr>
+                      <th class="name">1</th>
+                      <th class="EMA"></th>
+                      <th class="USFDA"></th>
+                      <th class="WHO"></th>
+                      <th class="ICH"></th>
+                    </tr>
+                            </table>
+
+                            <h2>   <p>Analytical run</p></h2>
+                            <p><b>Analytical run-Definition:</b> </p>
+
+                               <div class="flex-container">
+
+                                  <div class="EMA">Analytical run-EMA-</div>
+                                  <div class="USFDA">Analytical run-USFDA-</div>
+                                  <div class="WHO">Analytical run-WHO-</div>
+                                  <div class="ICH">Analytical run-ICH-</div>
+
+                                </div>
+                                <h3>Combine differences in Regulatory Guideline</h3>
+                                <table border="1" style="color:Darkblue">
+                        <tr>
+                          <th class="name">Analytical run</th>
+                          <th class="EMA">EMA</th>
+                          <th class="USFDA">USFDA</th>
+                          <th class="WHO">WHO</th>
+                          <th class="ICH">ICH</th>
+                        </tr>
+                        <tr>
+                          <th class="name">1</th>
+                          <th class="EMA"></th>
+                          <th class="USFDA"></th>
+                          <th class="WHO"></th>
+                          <th class="ICH"></th>
+                        </tr>
+                                </table>
+
+                            <h2>   <p>Acceptance criteria for analytical run</p></h2>
+                              <p><b> Acceptance criteria for analytical run-Definition:</b> </p>
+                               <div class="flex-container">
+
+                                  <div class="EMA">Acceptance criteria for analytical run-EMA-</div>
+                                  <div class="USFDA">Acceptance criteria for analytical run-USFDA-</div>
+                                  <div class="WHO">Acceptance criteria for analytical run-WHO-</div>
+                                  <div class="ICH">Acceptance criteria for analytical run-ICH-</div>
+
+                                </div>
+                                <h3>Combine differences in Regulatory Guideline</h3>
+                                <table border="1" style="color:Darkblue">
+                        <tr>
+                          <th class="name">Acceptance criteria for analytical run</th>
+                          <th class="EMA">EMA</th>
+                          <th class="USFDA">USFDA</th>
+                          <th class="WHO">WHO</th>
+                          <th class="ICH">ICH</th>
+                        </tr>
+                        <tr>
+                          <th class="name">1</th>
+                          <th class="EMA"></th>
+                          <th class="USFDA"></th>
+                          <th class="WHO"></th>
+                          <th class="ICH"></th>
+                        </tr>
+                                </table>
+
+                                <h2>   <p>Calibration range</p></h2>
+                                <p><b> Calibration range-Definition:</b> </p>
+
+                                   <div class="flex-container">
+
+                                      <div class="EMA">Acceptance criteria for analytical run-EMA-</div>
+                                      <div class="USFDA">Acceptance criteria for analytical run-USFDA-</div>
+                                      <div class="WHO">Acceptance criteria for analytical run-WHO-</div>
+                                      <div class="ICH">Acceptance criteria for analytical run-ICH-</div>
+
+                                    </div>
+                                    <h3>Combine differences in Regulatory Guideline</h3>
+                                    <table border="1" style="color:Darkblue">
+                            <tr>
+                              <th class="name">Calibration range</th>
+                              <th class="EMA">EMA</th>
+                              <th class="USFDA">USFDA</th>
+                              <th class="WHO">WHO</th>
+                              <th class="ICH">ICH</th>
+                            </tr>
+                            <tr>
+                              <th class="name">1</th>
+                              <th class="EMA"></th>
+                              <th class="USFDA"></th>
+                              <th class="WHO"></th>
+                              <th class="ICH"></th>
+                            </tr>
+                                    </table>
+
+                                    <h2>   <p>Integration</p></h2>
+                                    <p><b>Integration-Definition:</b> </p>
+                                       <div class="flex-container">
+
+                                          <div class="EMA">Integration-EMA-</div>
+                                          <div class="USFDA">Integration-USFDA-</div>
+                                          <div class="WHO">Integration-WHO-</div>
+                                          <div class="ICH">Integration-ICH-</div>
+
+                                        </div>
+                                        <h3>Combine differences in Regulatory Guideline</h3>
+                                        <table border="1" style="color:Darkblue">
+                                <tr>
+                                  <th class="name">Integration</th>
+                                  <th class="EMA">EMA</th>
+                                  <th class="USFDA">USFDA</th>
+                                  <th class="WHO">WHO</th>
+                                  <th class="ICH">ICH</th>
+                                </tr>
+                                <tr>
+                                  <th class="name">1</th>
+                                  <th class="EMA"></th>
+                                  <th class="USFDA"></th>
+                                  <th class="WHO"></th>
+                                  <th class="ICH"></th>
+                                </tr>
+                                        </table>
+
+                                        <h1>   <p>Incurred samples reanalysis</p></h1>
+                                       <p><b>Incurred samples reanalysis-Definition:</b> </p>
+                                           <div class="flex-container">
+
+                                              <div class="EMA">Incurred samples reanalysis-EMA-</div>
+                                              <div class="USFDA">Incurred samples reanalysis-USFDA-</div>
+                                              <div class="WHO">Incurred samples reanalysis-WHO-</div>
+                                              <div class="ICH">Incurred samples reanalysis-ICH-</div>
+
+                                            </div>
+                                            <h3>Combine differences in Regulatory Guideline</h3>
+                                            <table border="1" style="color:Darkblue">
+                                    <tr>
+                                      <th class="name">Incurred samples reanalysis</th>
+                                      <th class="EMA">EMA</th>
+                                      <th class="USFDA">USFDA</th>
+                                      <th class="WHO">WHO</th>
+                                      <th class="ICH">ICH</th>
+                                    </tr>
+                                    <tr>
+                                      <th class="name">1</th>
+                                      <th class="EMA"></th>
+                                      <th class="USFDA"></th>
+                                      <th class="WHO"></th>
+                                      <th class="ICH"></th>
+                                    </tr>
+                                            </table>
+
+                                            <h1>   <p>Ligand binding assays</p></h1>
+                                          <p><b> Ligand binding assays-Definition:</b> </p>
+                                               <div class="flex-container">
+
+                                                  <div class="EMA">Ligand binding assays-EMA-</div>
+                                                  <div class="USFDA">Ligand binding assays-USFDA-</div>
+                                                  <div class="WHO">Ligand binding assays-WHO-</div>
+                                                  <div class="ICH">Ligand binding assays-ICH-</div>
+
+                                                </div>
+                                                <h3>Combine differences in Regulatory Guideline</h3>
+                                                <table border="1" style="color:Darkblue">
+                                        <tr>
+                                          <th class="name">Ligand binding assays</th>
+                                          <th class="EMA">EMA</th>
+                                          <th class="USFDA">USFDA</th>
+                                          <th class="WHO">WHO</th>
+                                          <th class="ICH">ICH</th>
+                                        </tr>
+                                        <tr>
+                                          <th class="name">1</th>
+                                          <th class="EMA"></th>
+                                          <th class="USFDA"></th>
+                                          <th class="WHO"></th>
+                                          <th class="ICH"></th>
+                                        </tr>
+                                                </table>
+
+                                                <h1>   <p>Method Validation</p></h1>
+                                              <p><b>Method Validation-Definition:</b> </p>
+                                                   <div class="flex-container">
+
+                                                      <div class="EMA">LBA-Method Validation-EMA-</div>
+                                                      <div class="USFDA">LBA-Method Validation-USFDA-</div>
+                                                      <div class="WHO">LBA-Method Validation-WHO-</div>
+                                                      <div class="ICH">LBA-Method Validation-ICH-</div>
+
+                                                    </div>
+                                                    <h3>Combine differences in Regulatory Guideline</h3>
+                                                    <table border="1" style="color:Darkblue">
+                                            <tr>
+                                              <th class="name">Method Validation</th>
+                                              <th class="EMA">EMA</th>
+                                              <th class="USFDA">USFDA</th>
+                                              <th class="WHO">WHO</th>
+                                              <th class="ICH">ICH</th>
+                                            </tr>
+                                            <tr>
+                                              <th class="name">1</th>
+                                              <th class="EMA"></th>
+                                              <th class="USFDA"></th>
+                                              <th class="WHO"></th>
+                                              <th class="ICH"></th>
+                                            </tr>
+                                                    </table>
+
+                                                    <h2> <p>LBA-Reference standard</p> </h2>
+                                                    <p><b> Reference standard-Definition:</b> </p>
+                                                    <div class="flex-container">
+
+                                                        <div class="EMA">LBA-Reference standard-EMA-</div>
+                                                        <div class="USFDA">LBA-Reference standard-USFDA-</div>
+                                                        <div class="WHO">LBA-Reference standard-WHO-</div>
+                                                        <div class="ICH">LBA-Reference standard-ICH-</div>
+
+                                                      </div>
+                                                      <h3>Combine differences in Regulatory Guideline</h3>
+                                                      <table border="1" style="color:Darkblue">
+                                              <tr>
+                                                <th class="name">LBA-Reference standard</th>
+                                                <th class="EMA">EMA</th>
+                                                <th class="USFDA">USFDA</th>
+                                                <th class="WHO">WHO</th>
+                                                <th class="ICH">ICH</th>
+                                              </tr>
+                                              <tr>
+                                                <th class="name">1</th>
+                                                <th class="EMA"></th>
+                                                <th class="USFDA"></th>
+                                                <th class="WHO"></th>
+                                                <th class="ICH"></th>
+                                              </tr>
+                                                      </table>
+
+                                                      <h2><p>LBA-Specificity</p></h2>
+                                                    <p><b> Specificity-Definition:</b> </p>
+                                                     <div class="flex-container">
+
+                                                         <div class="EMA">LBA-Specificity-EMA-</div>
+                                                         <div class="USFDA">LBA-Specificity-USFDA-</div>
+                                                         <div class="WHO">LBA-Specificity-WHO-</div>
+                                                         <div class="ICH">LBA-Specificity-ICH-</div>
+
+                                                       </div>
+                                                       <h3>Combine differences in Regulatory Guideline</h3>
+                                                       <table border="1" style="color:Darkblue">
+                                               <tr>
+                                                 <th class="name">LBA-Specificity</th>
+                                                 <th class="EMA">EMA</th>
+                                                 <th class="USFDA">USFDA</th>
+                                                 <th class="WHO">WHO</th>
+                                                 <th class="ICH">ICH</th>
+                                               </tr>
+                                               <tr>
+                                                 <th class="name">1</th>
+                                                 <th class="EMA"></th>
+                                                 <th class="USFDA"></th>
+                                                 <th class="WHO"></th>
+                                                 <th class="ICH"></th>
+                                               </tr>
+                                                       </table>
+
+                                                    <h2>   <p>LBA-Selectivity</p></h2>
+                                                      <p><b> Selectivity-Definition:</b> </p>
+                                                      <div class="flex-container">
+
+                                                          <div class="EMA">LBA-Selectivity-EMA-</div>
+                                                          <div class="USFDA">LBA-Selectivity-USFDA-</div>
+                                                          <div class="WHO">LBA-Selectivity-WHO-</div>
+                                                          <div class="ICH">LBA-Selectivity-ICH-</div>
+
+                                                        </div>
+                                                        <h3>Combine differences in Regulatory Guideline</h3>
+                                                        <table border="1" style="color:Darkblue">
+                                                <tr>
+                                                  <th class="name">LBA-Selectivity</th>
+                                                  <th class="EMA">EMA</th>
+                                                  <th class="USFDA">USFDA</th>
+                                                  <th class="WHO">WHO</th>
+                                                  <th class="ICH">ICH</th>
+                                                </tr>
+                                                <tr>
+                                                  <th class="name">1</th>
+                                                  <th class="EMA"></th>
+                                                  <th class="USFDA"></th>
+                                                  <th class="WHO"></th>
+                                                  <th class="ICH"></th>
+                                                </tr>
+                                                        </table>
+
+                                                    <h2>    <p>LBA-Carry-over effect</p></h2>
+                                                         <p><b> Carry-over effect-Definition:</b> </p>
+                                                       <div class="flex-container">
+
+                                                           <div class="EMA">LBA-Carry-over effect-EMA-</div>
+                                                           <div class="USFDA">LBA-Carry-over effect-USFDA-</div>
+                                                           <div class="WHO">LBA-Carry-over effect-WHO-</div>
+                                                           <div class="ICH">Carry-over effect-ICH-</div>
+
+                                                         </div>
+                                                         <h3>Combine differences in Regulatory Guideline</h3>
+                                                         <table border="1" style="color:Darkblue">
+                                                 <tr>
+                                                   <th class="name">LBA-Carry-over effect</th>
+                                                   <th class="EMA">EMA</th>
+                                                   <th class="USFDA">USFDA</th>
+                                                   <th class="WHO">WHO</th>
+                                                   <th class="ICH">ICH</th>
+                                                 </tr>
+                                                 <tr>
+                                                   <th class="name">1</th>
+                                                   <th class="EMA"></th>
+                                                   <th class="USFDA"></th>
+                                                   <th class="WHO"></th>
+                                                   <th class="ICH"></th>
+                                                 </tr>
+                                                         </table>
+
+                                                      <h2>   <p>LBA-Matrix selection</p></h2>
+                                                         <p><b> Matrix selection-Definition:</b> </p>
+                                                        <div class="flex-container">
+
+                                                            <div class="EMA">LBA-Matrix selection-EMA-</div>
+                                                            <div class="USFDA">LBA-Matrix selection-USFDA-</div>
+                                                            <div class="WHO">LBA-Matrix selection-WHO-</div>
+                                                            <div class="ICH">LBA-Matrix selection-ICH-</div>
+
+                                                          </div>
+                                                          <h3>Combine differences in Regulatory Guideline</h3>
+                                                          <table border="1" style="color:Darkblue">
+                                                  <tr>
+                                                    <th class="name">LBA-Matrix selection</th>
+                                                    <th class="EMA">EMA</th>
+                                                    <th class="USFDA">USFDA</th>
+                                                    <th class="WHO">WHO</th>
+                                                    <th class="ICH">ICH</th>
+                                                  </tr>
+                                                  <tr>
+                                                    <th class="name">1</th>
+                                                    <th class="EMA"></th>
+                                                    <th class="USFDA"></th>
+                                                    <th class="WHO"></th>
+                                                    <th class="ICH"></th>
+                                                  </tr>
+                                                          </table>
+
+                                                          <h2><p>LBA-Minimum required dilution</p></h2>
+                                                         <p><b> Minimum required dilution-Definition:</b> </p>
+                                                          <div class="flex-container">
+
+                                                             <div class="EMA">LBA-Minimum required dilutio-EMA-</div>
+                                                             <div class="USFDA">LBA-Minimum required dilutio-USFDA-</div>
+                                                             <div class="WHO">LBA-Minimum required dilutio-WHO-</div>
+                                                             <div class="ICH">LBA-Minimum required dilutio-ICH-</div>
+
+                                                           </div>
+                                                           <h3>Combine differences in Regulatory Guideline</h3>
+                                                           <table border="1" style="color:Darkblue">
+                                                   <tr>
+                                                     <th class="name">LBA-Minimum required dilution</th>
+                                                     <th class="EMA">EMA</th>
+                                                     <th class="USFDA">USFDA</th>
+                                                     <th class="WHO">WHO</th>
+                                                     <th class="ICH">ICH</th>
+                                                   </tr>
+                                                   <tr>
+                                                     <th class="name">1</th>
+                                                     <th class="EMA"></th>
+                                                     <th class="USFDA"></th>
+                                                     <th class="WHO"></th>
+                                                     <th class="ICH"></th>
+                                                   </tr>
+                                                           </table>
+
+                                                          <h2> <p>LBA-Calibration curve</p></h2>
+                                                           <p><b>Calibration curve-Definition:</b> </p>
+                                                           <div class="flex-container">
+
+                                                              <div class="EMA">LBA-Calibration curve-EMA-</div>
+                                                              <div class="UDFDA">LBA-Calibration curve-USFDA-</div>
+                                                              <div class="WHO">LBA-Calibration curve-WHO-</div>
+                                                              <div class="ICH">LBA-Calibration curve-ICH-</div>
+
+                                                            </div>
+                                                            <h3>Combine differences in Regulatory Guideline</h3>
+                                                            <table border="1" style="color:Darkblue">
+                                                    <tr>
+                                                      <th class="name">LBA-Calibration curve</th>
+                                                      <th class="EMA">EMA</th>
+                                                      <th class="USFDA">USFDA</th>
+                                                      <th class="WHO">WHO</th>
+                                                      <th class="ICH">ICH</th>
+                                                    </tr>
+                                                    <tr>
+                                                      <th class="name">1</th>
+                                                      <th class="EMA"></th>
+                                                      <th class="USFDA"></th>
+                                                      <th class="WHO"></th>
+                                                      <th class="ICH"></th>
+                                                    </tr>
+                                                            </table>
+
+                                                          <h2>  <p>LBA-Precision and accuracy</p></h2>
+                                                           <p><b> Precision-Definition:</b> </p>
+                                                           <p><b> Accuracy-Definition:</b> </p>
+                                                            <div class="flex-container">
+
+                                                               <div class="EMA">LBA-Precision and accuracy-EMA-</div>
+                                                               <div class="USFDA">LBA-Precision and accuracy-USFDA-</div>
+                                                               <div class="WHO">LBA-Precision and accuracy-WHO-</div>
+                                                               <div class="ICH">LBA-Precision and accuracy-ICH-</div>
+
+                                                             </div>
+                                                             <h3>Combine differences in Regulatory Guideline</h3>
+                                                             <table border="1" style="color:Darkblue">
+                                                     <tr>
+                                                       <th class="name">LBA-Precision and accuracy</th>
+                                                       <th class="EMA">EMA</th>
+                                                       <th class="USFDA">USFDA</th>
+                                                       <th class="WHO">WHO</th>
+                                                       <th class="ICH">ICH</th>
+                                                     </tr>
+                                                     <tr>
+                                                       <th class="name">1</th>
+                                                       <th class="EMA"></th>
+                                                       <th class="USFDA"></th>
+                                                       <th class="WHO"></th>
+                                                       <th class="ICH"></th>
+                                                     </tr>
+                                                             </table>
+
+                                                          <h2>   <p>LBA-Dilution linearity</p></h2>
+                                                             <p><b> Dilution linearity-Definition:</b> </p>
+                                                             <div class="flex-container">
+
+                                                                <div class="EMA">LBA-Dilution linearity-EMA-</div>
+                                                                <div class="USFDA">LBA-Dilution linearity-USFDA-</div>
+                                                                <div class="WHO">LBA-Dilution linearity-WHO-</div>
+                                                                <div class="ICH">LBA-Dilution linearity-ICH-</div>
+
+                                                              </div>
+                                                              <h3>Combine differences in Regulatory Guideline</h3>
+                                                              <table border="1" style="color:Darkblue">
+                                                      <tr>
+                                                        <th class="name">LBA-Dilution linearity</th>
+                                                        <th class="EMA">EMA</th>
+                                                        <th class="USFDA">USFDA</th>
+                                                        <th class="WHO">WHO</th>
+                                                        <th class="ICH">ICH</th>
+                                                      </tr>
+                                                      <tr>
+                                                        <th class="name">1</th>
+                                                        <th class="EMA"></th>
+                                                        <th class="USFDA"></th>
+                                                        <th class="WHO"></th>
+                                                        <th class="ICH"></th>
+                                                      </tr>
+                                                              </table>
+
+                                                              <h2>   <p>LBA-Parallelism </p></h2>
+                                                               <p><b> Parallelism:</b> </p>
+                                                                 <div class="flex-container">
+
+                                                                    <div class="EMA">LBA-Parallelism-EMA-</div>
+                                                                    <div class="USFDA">LBA-Parallelism-USFDA-</div>
+                                                                    <div class="WHO">LBA-Parallelism-WHO-</div>
+                                                                    <div class="ICH">LBA-Parallelism-ICH-</div>
+
+                                                                  </div>
+                                                                  <h3>Combine differences in Regulatory Guideline</h3>
+                                                                  <table border="1" style="color:Darkblue">
+                                                          <tr>
+                                                            <th class="name">LBA-Parallelism </th>
+                                                            <th class="EMA">EMA</th>
+                                                            <th class="USFDA">USFDA</th>
+                                                            <th class="WHO">WHO</th>
+                                                            <th class="ICH">ICH</th>
+                                                          </tr>
+                                                          <tr>
+                                                            <th class="name">1</th>
+                                                            <th class="EMA"></th>
+                                                            <th class="USFDA"></th>
+                                                            <th class="WHO"></th>
+                                                            <th class="ICH"></th>
+                                                          </tr>
+                                                                  </table>
+
+                                                                  <h2>   <p>LBA-Stability of the samples </p></h2>
+                                                                 <p><b> tability of the samples-Definition:</b> </p>
+                                                                     <div class="flex-container">
+
+                                                                        <div class="EMA">LBA-Stability of the samples-EMA-</div>
+                                                                        <div class="USFDA">LBA-Stability of the samples-USFDA-</div>
+                                                                        <div class="WHO">LBA-Stability of the samples-WHO-</div>
+                                                                        <div class="ICH">LBA-Stability of the samples-ICH-</div>
+
+                                                                      </div>
+                                                                      <h3>Combine differences in Regulatory Guideline</h3>
+                                                                      <table border="1" style="color:Darkblue">
+                                                              <tr>
+                                                                <th class="name">LBA-Stability of the samples</th>
+                                                                <th class="EMA">EMA</th>
+                                                                <th class="USFDA">USFDA</th>
+                                                                <th class="WHO">WHO</th>
+                                                                <th class="ICH">ICH</th>
+                                                              </tr>
+                                                              <tr>
+                                                                <th class="name">1</th>
+                                                                <th class="EMA"></th>
+                                                                <th class="USFDA"></th>
+                                                                <th class="WHO"></th>
+                                                                <th class="ICH"></th>
+                                                              </tr>
+                                                                      </table>
+                                  <h2>   <p>LBA-Reagents </p></h2>
+                                     <p><b> Reagents-Definition:</b> </p>
+                                      <div class="flex-container">
+
+                                       <div class="EMA"> LBA-Reagents-EMA-</div>
+                                      <div class="USFDA">LBA-Reagents-USFDA-</div>
+                                      <div class="WHO">LBA-Reagents-WHO-</div>
+                                    <div class="ICH">LBA-Reagents-ICH-</div>
+
+                                  </div>
+                                  <h3>Combine differences in Regulatory Guideline</h3>
+                                  <table border="1" style="color:Darkblue">
+                          <tr>
+                            <th class="name">LBA-Reagents</th>
+                            <th class="EMA">EMA</th>
+                            <th class="USFDA">USFDA</th>
+                            <th class="WHO">WHO</th>
+                            <th class="ICH">ICH</th>
+                          </tr>
+                          <tr>
+                            <th class="name">1</th>
+                            <th class="EMA"></th>
+                            <th class="USFDA"></th>
+                            <th class="WHO"></th>
+                            <th class="ICH"></th>
+                          </tr>
+                                  </table>
+
+                            <h2>   <p>LBA-Commercial kits </p></h2>
+                                 <p><b> Commercial kits-Definition:</b> </p>
+                                     <div class="flex-container">
+
+                                    <div class="EMA">LBA-Commercial kits-EMA-</div>
+                                  <div class="USFDA">LBA-Commercial kits-USFDA-</div>
+                                    <div class="WHO">LBA-Commercial kits-WHO-</div>
+                                  <div class="ICH">LBA-Commercial kits-ICH-</div>
+
+                            </div>
+                            <h3>Combine differences in Regulatory Guideline</h3>
+                            <table border="1" style="color:Darkblue">
+                    <tr>
+                      <th class="name">LBA-Commercial kits</th>
+                      <th class="EMA">EMA</th>
+                      <th class="USFDA">USFDA</th>
+                      <th class="WHO">WHO</th>
+                      <th class="ICH">ICH</th>
+                    </tr>
+                    <tr>
+                      <th class="name">1</th>
+                      <th class="EMA"></th>
+                      <th class="USFDA"></th>
+                      <th class="WHO"></th>
+                      <th class="ICH"></th>
+                    </tr>
+                            </table>
+
+                          <h1>   <p>LBA-Partial Validation and Cross validation </p></h1>
+                                 <p><b> Partial Validation-Definition:</b> </p>
+                                 <p><b> Cross validation-Definition:</b> </p>
+                              <div class="flex-container">
+
+                               <div class="EMA">LBA-Partial Validation and Cross validation-EMA-</div>
+                              <div class="USFDA">LBA-Partial Validation and Cross validation-USFDA-</div>
+                              <div class="WHO">LBA-Partial Validation and Cross validation-WHO-</div>
+                            <div class="ICH">LBA-Partial Validation and Cross validation-ICH-</div>
+
+                          </div>
+                          <h3>Combine differences in Regulatory Guideline</h3>
+                          <table border="1" style="color:Darkblue">
+                  <tr>
+                    <th class="name">LBA-Partial Validation and Cross validation</th>
+                    <th class="EMA">EMA</th>
+                    <th class="USFDA">USFDA</th>
+                    <th class="WHO">WHO</th>
+                    <th class="ICH">ICH</th>
+                  </tr>
+                  <tr>
+                    <th class="name">1</th>
+                    <th class="EMA"></th>
+                    <th class="USFDA"></th>
+                    <th class="WHO"></th>
+                    <th class="ICH"></th>
+                  </tr>
+                          </table>
+
+                    <h1>   <p>LBA-Analysis of study samples</p></h1>
+                         <p><b> Analysis of study samples-Definition:</b> </p>
+                             <div class="flex-container">
+
+                            <div class="EMA">LBA-Analysis of study samples-EMA-</div>
+                          <div class="USFDA">LBA-Analysis of study samples-USFDA-</div>
+                            <div class="WHO">LBA-Analysis of study samples-WHO-</div>
+                          <div class="ICH">LBA-Analysis of study samples-ICH-</div>
+
+                    </div>
+                    <h3>Combine differences in Regulatory Guideline</h3>
+                    <table border="1" style="color:Darkblue">
+            <tr class="name">
+              <th>LBA-Analysis of study samples</th>
+              <th class="EMA">EMA</th>
+              <th class="USFDA">USFDA</th>
+              <th class="WHO">WHO</th>
+              <th class="ICH">ICH</th>
+            </tr>
+            <tr>
+              <th class="name">1</th>
+              <th class="EMA"></th>
+              <th class="USFDA"></th>
+              <th class="WHO"></th>
+              <th class="ICH"></th>
+            </tr>
+                    </table>
+
+                    <h2>   <p>LBA-Analytical run</p></h2>
+                         <p><b> Analytical run-Definition:</b> </p>
+                       <div class="flex-container">
+
+                          <div class="EMA">LBA-Analytical run-EMA-</div>
+                          <div class="USFDA">LBA-Analytical run-USFDA-</div>
+                          <div class="WHO">LBA-Analytical run-WHO-</div>
+                          <div class="ICH">LBA-Analytical run-ICH-</div>
+
+                        </div>
+                        <h3>Combine differences in Regulatory Guideline</h3>
+                        <table border="1" style="color:Darkblue">
+                <tr>
+                  <th class="name">LBA-Analytical run</th>
+                  <th class="EMA">EMA</th>
+                  <th class="USFDA">USFDA</th>
+                  <th class="WHO">WHO</th>
+                  <th class="ICH">ICH</th>
+                </tr>
+                <tr>
+                  <th class="name">1</th>
+                  <th class="EMA"></th>
+                  <th class="USFDA"></th>
+                  <th class="WHO"></th>
+                  <th class="ICH"></th>
+                </tr>
+                        </table>
+
+                    <h2>   <p>LBA-Acceptance criteria for analytical run</p></h2>
+                        <p><b> Acceptance criteria for analytical run-Definition:</b> </p>
+                       <div class="flex-container">
+
+                          <div class="EMA">LBA-Acceptance criteria for analytical run-EMA-</div>
+                          <div class="USFDA">LBA-Acceptance criteria for analytical run-USFDA-</div>
+                          <div class="WHO">LBA-Acceptance criteria for analytical run-WHO-</div>
+                          <div class="ICH">LBA-Acceptance criteria for analytical run-ICH-</div>
+
+                        </div>
+                        <h3>Combine differences in Regulatory Guideline</h3>
+                        <table border="1" style="color:Darkblue">
+                <tr>
+                  <th class="name">LBA-Acceptance criteria for analytical run</th>
+                  <th class="EMA">EMA</th>
+                  <th class="USFDA">USFDA</th>
+                  <th class="WHO">WHO</th>
+                  <th class="ICH">ICH</th>
+                </tr>
+                <tr>
+                  <th class="name">1</th>
+                  <th class="EMA"></th>
+                  <th class="USFDA"></th>
+                  <th class="WHO"></th>
+                  <th class="ICH"></th>
+                </tr>
+                        </table>
+
+
+
+                                <h2>   <p>LBA-Incurred samples reanalysis</p></h2>
+                                   <p><b> Incurred samples reanalysis-Definition:</b> </p>
+                                   <div class="flex-container">
+
+                                      <div class="EMA">LBA-Incurred samples reanalysis-EMA-</div>
+                                      <div class="USFDA">LBA-Incurred samples reanalysis-USFDA-</div>
+                                      <div class="WHO">LBA-Incurred samples reanalysis-WHO-</div>
+                                      <div class="ICH">LBA-Incurred samples reanalysis-ICH-</div>
+
+                                    </div>
+                                    <h3>Combine differences in Regulatory Guideline</h3>
+                                    <table border="1" style="color:Darkblue">
+                            <tr>
+                              <th class="name">LBA-Incurred samples reanalysis</th>
+                              <th class="EMA">EMA</th>
+                              <th class="USFDA">USFDA</th>
+                              <th class="WHO">WHO</th>
+                              <th class="ICH">ICH</th>
+                            </tr>
+                            <tr>
+                              <th class="name">1</th>
+                              <th class="EMA"></th>
+                              <th class="USFDA"></th>
+                              <th class="WHO"></th>
+                              <th class="ICH"></th>
+                            </tr>
+                                    </table>
+
+          <h1>   <p>Reports</p></h1>
+          <p><b> Reports-Definition:</b> </p>
+          <div class="flex-container">
+          <div class="EMA">Reports-EMA-</div>
+          <div class="USFDA">Reports-USFDA-</div>
+          <div class="WHO">Reports-WHO-</div>
+          <div class="ICH">Reports-ICH-</div>
+                                        </div>
+
+                                        <h3>Combine differences in Regulatory Guideline</h3>
+                                        <table border="1" style="color:Darkblue">
+                                <tr>
+                                  <th class="name">Reports</th>
+                                  <th class="EMA">EMA</th>
+                                  <th class="USFDA">USFDA</th>
+                                  <th class="WHO">WHO</th>
+                                  <th class="ICH">ICH</th>
+                                </tr>
+                                <tr>
+                                  <th class="name">1</th>
+                                  <th class="EMA"></th>
+                                  <th class="USFDA"></th>
+                                  <th class="WHO"></th>
+                                  <th class="ICH"></th>
+                                </tr>
+                                        </table>
+
+                                        <h2>   <p>Validation Report</p></h2>
+                                        <p><b> Validation Report-Definition:</b> </p>
+                                        <div class="flex-container">
+                                        <div class="EMA">Validation Report-EMA-</div>
+                                        <div class="USFDA">Validation Report-USFDA-</div>
+                                        <div class="WHO">Validation Report-WHO-</div>
+                                        <div class="ICH">Validation Report-ICH-</div>
+                                                                      </div>
+
+                                                                   <h3>Combine differences in Regulatory Guideline</h3>
+                                                                      <table border="1" style="color:Darkblue">
+                                                                      <tr>
+                                                                      <th class="name">Validation Report</th>
+                                                                      <th class="EMA">EMA</th>
+                                                                      <th class="USFDA">USFDA</th>
+                                                                      <th class="WHO">WHO</th>
+                                                                      <th class="ICH">ICH</th>
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <th class="name">1</th>
+                                                                      <th class="EMA"></th>
+                                                                      <th class="USFDA"></th>
+                                                                      <th class="WHO"></th>
+                                                                      <th class="ICH"></th>
+                                                                      </tr>
+                                                                      </table>
+
+
+                                                                      <h2>   <p>Analytical Report</p></h2>
+                                                                      <p><b> Analytical Report-Definition:</b> </p>
+                                                                      <div class="flex-container">
+                                                                      <div class="EMA">Analytical Report-EMA-</div>
+                                                                      <div class="USFDA">Analytical Report-USFDA-</div>
+                                                                      <div class="WHO">Analytical Report-WHO-</div>
+                                                                      <div class="ICH">Analytical Report-ICH-</div>
+                                                                                                    </div>
+
+                                                                                                    <h3>Combine differences in Regulatory Guideline</h3>
+                                                                                                    <table border="1" style="color:Darkblue">
+                                                                                                    <tr>
+                                                                                                    <th class="name">Analytical Report</th>
+                                                                                                    <th class="EMA">EMA</th>
+                                                                                                    <th class="USFDA">USFDA</th>
+                                                                                                    <th class="WHO">WHO</th>
+                                                                                                    <th class="ICH">ICH</th>
+                                                                                                    </tr>
+                                                                                                    <tr>
+                                                                                                    <th class="name">1</th>
+                                                                                                    <th class="EMA"></th>
+                                                                                                    <th class="USFDA"></th>
+                                                                                                    <th class="WHO"></th>
+                                                                                                    <th class="ICH"></th>
+                                                                                                    </tr>
+                                                                                                    </table>
+
+                                                                                                    <h2>   <p>Definitio</p></h2>
+                                                                                                    <p><b> Definitio-Definition:</b> </p>
+                                                                                                    <div class="flex-container">
+                                                                                                    <div class="EMA">Definitio-EMA-</div>
+                                                                                                    <div class="USFDA">Definitio-USFDA-</div>
+                                                                                                    <div class="WHO">Definitio-WHO-</div>
+                                                                                                    <div class="ICH">Definitio-ICH-</div>
+                                                                                                                                  </div>
+
+                                                                                                                                  <h3>Combine differences in Regulatory Guideline</h3>
+                                                                                                                                  <table border="1" style="color:Darkblue">
+                                                                                                                                  <tr>
+                                                                                                                                  <th class="name">Definitio</th>
+                                                                                                                                  <th class="EMA">EMA</th>
+                                                                                                                                  <th class="EMA">USFDA</th>
+                                                                                                                                  <th class="EMA">WHO</th>
+                                                                                                                                  <th class="EMA">ICH</th>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                  <th class="name">1</th>
+                                                                                                                                  <th class="EMA"></th>
+                                                                                                                                  <th class="USFDA"></th>
+                                                                                                                                  <th class="WHO"></th>
+                                                                                                                                  <th class="ICH"></th>
+                                                                                                                                  </tr>
+                                                                                                                                  </table>
+
+
+
+
+
+    </body>
+    </html>
